@@ -1,0 +1,143 @@
+div.content {
+	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: none;
+	width: 100%; 
+	height:728px;
+	position:relative;
+}
+div.controls { display:none !important;
+}
+div.slideshow-container {
+	position: relative;
+	clear: both;
+	height: 570px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 570px;
+	height: 728px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.slideshow {
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+div.slideshow a.advance-link {
+	display: block;
+	width: 570px;
+	height: 728px; /* This should be set to be at least the height of the largest image in the slideshow */
+	line-height: 728px; /* This should be set to be at least the height of the largest image in the slideshow */
+	text-align: center;
+}
+div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow img {
+	vertical-align: middle;
+	border: 0;
+}
+
+div.caption-container {
+	position:absolute;
+	left:0;
+	bottom:35px;
+	width:314px;
+	background: #3e3d3d;
+	z-index:100;
+	color:#d4d4d4;
+	padding:14px 15px 12px 36px;
+	height:95px;
+	overflow:hidden;
+	display:none;
+}
+div.image-title {
+	text-transform:uppercase;
+	font-size:30px;
+	color:#fffcb3;
+	line-height:24px;
+	margin-bottom:10px;
+	font-family: 'HelveticaNeue-HeavyCond';
+}
+div.image-desc {
+}
+
+.advance-link img {
+	display:block;
+	width:570px;
+	height:728px;
+	position:absolute;
+	z-index:50;
+	top:0; 
+	left:0;
+}
+
+div.navigation {
+	/* The navigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
+}
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+ul.thumbs li {
+	float: left;
+	padding: 0;
+	margin: 0 9px 9px 0;
+	list-style: none;
+}
+a.thumb {
+	padding: 0;
+	display: block;
+	border: 0;
+}
+ul.thumbs li.selected a.thumb {
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs a img {
+	border: none;
+	width:161px;
+	height:161px;
+}
+.x1024 ul.thumbs a img {
+	border: none;
+	width:140px;
+	height:140px;
+}
+div.pagination {
+	clear: both;
+}
+
+
+
+div.navigation div.top.pagination { display:none !important;
+}
+
+div.navigation div.bottom {
+	margin-top: 25px;
+}
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 3px;
+	padding: 3px 8px;
+	color:#3e3d3d;
+	background:#fffcba;
+}
+div.pagination a:hover {
+	background-color: #fff;
+	text-decoration: none;
+}
+div.pagination span.current {
+	background-color: #f9adbf;
+}
+div.pagination span.ellipsis {
+}

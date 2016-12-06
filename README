@@ -1,0 +1,10 @@
+A simple PHP Login Demo built with CakePHP PHP framework.
+
+- CakePHP 2.4 rapid development php framework
+- CakePHP DebugKit
+- Bootstrap 3 front-end framework with Mobile Friendly Responsive design
+- jQuery, jQuery UI JavaScript Library,
+
+/admin
+username: admin
+password: 123

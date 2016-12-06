@@ -1,0 +1,64 @@
+  @font-face {
+    font-family: AdineKirnberg-Script;
+    src: url(AdineKirnberg-Script.woff);
+}
+  .feedback-rope
+  {
+    width:5000px;
+    padding:0px; 
+    margin:0px 0px 20px;
+  }
+  .feedback-rope ul
+  {
+    background-size: contain;
+    list-style: outside none none;
+    display: inline-block;
+    margin-left: 100px;
+  }
+  .feedback-rope ul li
+  {
+    float:left;
+    padding-top:90px;
+    margin-right: 100px;
+  }
+  .feedback-rope .sticker1
+  {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 100px;
+  }
+  .feedback-rope .sticker2
+  {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 100px;
+  }
+  .feedback-rope .content_img
+  {
+    background: #ffffff;
+    padding: 10px;
+  }
+  .content_img .img_feedback
+  {
+    border:2px #000 solid;
+  }
+  .content_img .title
+  {
+    color:#000;
+    font-family: "AdineKirnberg-Script";
+    font-size: 18px;
+    width: 200px;
+
+  }
+ .img_style1
+  {
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Safari */
+    transform: rotate(10deg);
+  }
+  .img_style2
+  {
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg);
+  }

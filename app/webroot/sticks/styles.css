@@ -1,0 +1,72 @@
+
+.sticky{
+  width: 100%;
+}
+.sticky ul{
+  background-size: contain;
+  list-style:none;
+  padding-top: 80px;
+  display: inline-block;
+  width: 100%;
+}
+.sticky ul li{
+  text-decoration: none;
+    color: #000;
+    height: 356px;
+    background: url('note/instantPicture.png');
+    background-size: cover;
+    width: 300px;
+    padding: 16px 10px 10px 16px;
+    margin-bottom: 50px;
+    float: left;
+    cursor: pointer;
+    -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+
+}
+.sticky ul li:hover{
+-ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Safari */
+    transform: rotate(5deg);
+    -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+.sticky .title{
+  font-size: 20px;
+  margin-right: 16px;
+  margin-top: 0px;
+  text-align: center;
+  max-height: 50px;
+  overflow: hidden;
+}
+.sticky .content{
+//  font-family: "Reenie Beanie",arial,sans-serif;
+font-size: 18px;
+}
+.sticky .note2{
+  background: url('note/instantPicture.png');
+  background-size: cover;
+}
+.sticky .note3{
+  background: url('note/instantPicture.png');
+  background-size: cover;
+}
+
+.sticky-new{
+}
+.sticky-new ul{
+  background-size: contain;
+  list-style:none;
+  display: inline-block;
+  width: 100%;
+}
+.sticky-new ul li{
+  text-decoration: none;
+    color: #000;
+    float: left;
+    padding-left: 10px;
+  }
